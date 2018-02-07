@@ -1,0 +1,3 @@
+all_for_kids_main_homepage:
+    path:     /
+    defaults: { _controller: AllForKidsMainBundle:Default:index }

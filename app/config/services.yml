@@ -1,0 +1,7 @@
+# Learn more about services, parameters and containers at
+
+services:
+ app.form.registration:
+   class: AllForKids\MainBundle\Form\Type\RegistrationFormType
+   tags:
+       - { name: form.type, alias: app_user_registration }
